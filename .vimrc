@@ -47,6 +47,8 @@ set foldnestmax=10
 set foldmethod=indent
 nnoremap <space> za
 
+let g:netrw_liststyle = 3
+let g:netrw_banner = 0
 
 " lightline settings
 set laststatus=2
