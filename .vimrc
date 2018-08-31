@@ -9,6 +9,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
+Plug 'airblade/vim-gitgutter'
 
 " jsx formatting
 Plug 'pangloss/vim-javascript'
@@ -23,8 +24,8 @@ call plug#end()
 " personal settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " misc settings
-set clipboard=unnamed
-set mouse=a
+set mouse=v
+set clipboard=unnamed,^unnamed+
 
 " tab settings
 set shiftwidth=4
